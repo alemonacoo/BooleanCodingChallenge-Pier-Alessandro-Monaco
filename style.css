@@ -1,0 +1,80 @@
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+
+.homepage{
+  margin: auto;
+  margin-top: 5%;
+  padding: 4%;
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3%;
+}
+
+header{
+  height: 15vh;
+}
+
+.logo_titolo{
+  height: 100%;
+  width: auto;
+  text-align: center;
+}
+header img{
+  height: 60%;
+  width: auto;
+}
+
+.logo_titolo h1{
+  margin: 0;
+  color: rgb(34, 219,39);
+  font-family: arial;
+  font-size: 20px;
+}
+
+
+.menu {
+  text-align: center;
+  background-color: rgb(34, 219,39);
+  padding: 10px;
+}
+
+.monopattino{
+    height: 15vh;
+    color: white;
+    font-family: arial;
+}
+.monopattino h2{
+  display: inline-block;
+  margin: 5px;
+}
+.monopattino p{
+  margin: 0;
+}
+
+.stato-carica{
+  height: 20px;
+  border-radius: 4px;
+}
+
+.yellow{
+  width: 50%;
+  background-color: rgb(243, 179, 92);
+}
+
+.green{
+  width: 70%;
+  background-color: rgb(34, 219,39);
+}
+.red{
+  width: 20%;
+  background-color: rgb(188, 66, 68);
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
